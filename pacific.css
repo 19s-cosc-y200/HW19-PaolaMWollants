@@ -4,6 +4,9 @@ Author: Paola Wollants
 Date Last Modified: May 2, 2019
 GitHub User: PaolaMWollants
 /*
+
+formatting issues (see fixes below)
+
 * { box-sizing: border-box; }
 
 /*Set the body background, text color, and font style */
@@ -19,6 +22,7 @@ body { background-color: #3399CC;
 	min-width: 700px;
 	max-width: 1024px;
 	box-shadow: 5px 5px 5px #000000;
+	width: 80%;
 }
 
 #trailhero { background-image: url("trail.jpg");
@@ -55,7 +59,7 @@ h1 { background-image: url("sunset.jpg");
 	background-position: right top;
 	background-repeat: no-repeat;
 	padding-left: 2em;
-	height: 72px
+	height: 72px;
 	margin-bottom: 0;
 }
 
@@ -69,6 +73,7 @@ nav { font-weight: bold;
 	float: left;
 	width: 160px;
 }
+nav a { text-decoration: none; }
 
 nav a:link { color: #FFFFFF; }
 nav a:visited { color: #C2E0F0; }
